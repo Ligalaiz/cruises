@@ -1,0 +1,374 @@
+.nav,
+.menu {
+  display: none;
+}
+
+.main {
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+
+.main-header {
+  background-image: url("../../img/bg-desct.jpg");
+  min-height: 584px;
+}
+
+.main-header .container {
+  width: 100%;
+}
+
+.promo__logo {
+  width:70px;
+  height: 70px;
+  margin-bottom: 8px;
+}
+
+.promo__heading {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.promo__text {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "RobotoSlab", "Arial", serif;
+  letter-spacing: -1.2px;
+  line-height: 1;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.promo::after {
+  height: 223px;
+}
+
+/*  cards   */
+
+.title {
+  margin-bottom: 40px;;
+}
+
+.title__main {
+  margin-bottom: 4px;
+}
+
+.cards__item {
+  padding-top: 250px;
+  padding-bottom: 17px;
+  width: 290px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.cards__promo {
+  margin-left: 23px;
+  min-height: 180px;
+  flex-direction: column;
+}
+
+.cards__promo-text--route {
+  margin-bottom: 0;
+}
+
+.cards__promo-text--duration {
+  margin-bottom: 6px;
+}
+
+.anapa {
+  background-image: url("../../img/bg-anapa-mob.jpg");
+}
+
+.sochi {
+  background-image: url("../../img/bg-sochi-mob.jpg");
+}
+
+.geleg {
+  background-image: url("../../img/bg-geleg-mob.jpg");
+}
+
+.novoros {
+  background-image: url("../../img/bg-novoros-mob.jpg");
+}
+
+.durso {
+  display: none;
+}
+
+/*  footer  */
+
+
+.footer {
+  padding-top: 23px;
+  padding-bottom: 30px;
+}
+
+.social-text {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.social,
+.feedback {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social {
+  margin-bottom: 8px;
+}
+
+@media (min-width: 576px) {
+  .menu {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .main {
+    padding-top: 65px;
+    padding-bottom: 35px;
+  }
+
+  .main-header {
+    min-height: 600px;
+  }
+
+  .promo__logo {
+    width:70px;
+    height: 70px;
+    margin-bottom: 8px;
+  }
+
+  .promo__heading {
+    font-size: 26px;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-bottom: 7px;
+  }
+
+  .promo__text {
+    font-size: 72px;
+    text-transform: uppercase;
+    font-family: "RobotoSlab", "Arial", serif;
+    letter-spacing: -1.2px;
+  }
+
+  .promo::after {
+    height: 220px;
+  }
+
+  /*  cards   */
+
+  .title {
+    margin-bottom: 40px;;
+  }
+
+  .title__main {
+    margin-bottom: 4px;
+  }
+
+  .cards__item {
+    padding-top: 300px;
+    padding-bottom: 15px;
+    width: 345px;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+  }
+
+  .anapa {
+    background-image: url("../../img/bg-anapa-tablet.jpg");
+  }
+
+  .sochi {
+    background-image: url("../../img/bg-sochi-tablet.jpg");
+  }
+
+  .geleg {
+    background-image: url("../../img/bg-geleg-tablet.jpg");
+  }
+
+  .novoros {
+    background-image: url("../../img/bg-novoros-tablet.jpg");
+  }
+
+  .durso {
+    display: none;
+  }
+
+  /*  footer  */
+
+  .footer {
+    padding-top: 23px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .promo__text {
+    letter-spacing: -1.5px;
+    margin-bottom: 15px;
+  }
+
+  .promo::after {
+    height: 260px;
+  }
+
+  .social-text {
+    text-align: left;
+  }
+
+  .cards__item {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .social,
+  .feedback {
+    margin: 0;
+    text-align: left;
+  }
+
+  .anapa {
+    padding-bottom: 30px;
+  }
+
+  .cards__promo-price {
+    margin-top: auto;
+  }
+
+  .geleg__clone {
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu {
+    padding-top: 10px;
+  }
+
+  .main {
+    padding-top: 117px;
+  }
+
+  .main-header {
+    background-image: url("../../img/bg-desct.jpg");
+    min-height: 647px;
+  }
+
+  .promo__logo {
+    width: 88px;
+    height: 88px;
+  }
+
+  .promo__heading {
+    margin-bottom: 30px;
+  }
+
+  .promo__text {
+    font-size: 100px;
+    text-transform: uppercase;
+  }
+
+  .promo::after {
+    height: 195px;
+    bottom: -15%;
+  }
+
+  /*  cards   */
+
+  .title {
+    margin-bottom: 40px;;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .cards__item {
+    padding-bottom: 15px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .anapa {
+    padding-top: 457px;
+    background-image: url("../../img/bg-anapa-desct.jpg");
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .sochi {
+    padding-top: 136px;
+    background-image: url("../../img/bg-sochi-desct.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+  }
+
+  .geleg {
+    padding-top: 136px;
+    background-image: url("../../img/bg-geleg-desct.jpg");
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .novoros {
+    padding-top: 237px;
+    background-image: url("../../img/bg-novoros-desct.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .durso {
+    display: block;
+    padding-top: 236px;
+    background-image: url("../../img/bg-durso-desct.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .btn__primary {
+    margin-top: 25px;
+  }
+
+  .cards__promo {
+    min-height: 0;
+  }
+
+  .cards__promo-link {
+    margin-bottom: 5px;
+  }
+
+  .cards__promo-text--route {
+    margin-bottom: 0;
+  }
+  .cards__promo-text--duration {
+    margin-bottom: 9px;
+  }
+
+  .social-text {
+    margin-bottom: 6px;
+  }
+
+  .feedback__link--text {
+    margin-bottom: 8px;
+  }
+
+  /*  footer  */
+
+  .footer {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .promo::after {
+    height: 260px;
+    bottom: -15%;
+  }
+}
